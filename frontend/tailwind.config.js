@@ -7,6 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
+        hnai: {
+          primary: '#FFDF00',
+          secondary: '#004040',
+        },
         primary: {
           50: '#eff6ff',
           100: '#dbeafe',

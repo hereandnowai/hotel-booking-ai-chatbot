@@ -1,29 +1,35 @@
-# AI-Powered Hotel Booking Chatbot 🏨
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/logos/logo-of-here-and-now-ai.png" alt="HERE AND NOW AI Logo" width="300">
+</p>
 
-An intelligent conversational chatbot for hotel booking built with **Spring Boot**, **Spring AI**, **Ollama**, and **React**. Users can search for hotels, make bookings, modify reservations, and cancel them using natural language.
+# HERE AND NOW AI: Intelligent Hotel Booking Chatbot 🏨
+
+> **"AI is Good"**
+
+An intelligent conversational chatbot for hotel booking built with **Spring Boot**, **Spring AI**, **Ollama**, and **React**. Experience the future of travel planning where users can search for hotels, make bookings, modify reservations, and cancel them using natural language.
 
 ## 🌟 Features
 
-- **Natural Language Processing**: Powered by Ollama (GPT-OSS 20B) for understanding user intent
-- **Hotel Search**: Find hotels by city, price range, and room type
-- **Booking Management**: Create, modify, and cancel hotel reservations
-- **Conversational Memory**: Maintains context throughout the conversation
-- **AI Function Calling**: Spring AI tools for database operations
-- **Modern UI**: React chat interface with Tailwind CSS
+- **Empathetic NLP**: Powered by Ollama (GPT-OSS 20B) for human-like understanding of user intent.
+- **Smart Hotel Discovery**: Instant hotel search by city, price range, and room type.
+- **Seamless Booking Lifecycle**: Effortlessly create, modify, and cancel hotel reservations.
+- **Deep Conversational Context**: Maintains multi-turn dialogue history for a personalized experience.
+- **Spring AI Orchestration**: Leveraging advanced AI function calling for secure database operations.
+- **Stunning UI**: A modern, responsive React interface styled with Tailwind CSS and the HERE AND NOW AI brand identity.
 
 ## 🏗️ Architecture
 
 ```
-┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
-│  React Frontend │────▶│  Spring Boot    │────▶│    Ollama       │
-│  (Vite + TS)    │     │  REST API       │     │  (GPT-OSS 20B)  │
-└─────────────────┘     └────────┬────────┘     └─────────────────┘
-                                 │
-                                 ▼
-                        ┌─────────────────┐
-                        │   PostgreSQL    │
-                        │   Database      │
-                        └─────────────────┘
+┌─────────────────────────┐     ┌───────────────────────┐     ┌──────────────────────┐
+│   React Frontend UI     │────▶│   Spring Boot         │────▶│      Ollama          │
+│   (Vite + TypeScript)   │     │   REST Service        │     │    (GPT-OSS 20B)     │
+└─────────────────────────┘     └──────────┬────────────┘     └──────────────────────┘
+                                           │
+                                           ▼
+                                ┌───────────────────────┐
+                                │    PostgreSQL         │
+                                │    Storage Layer      │
+                                └───────────────────────┘
 ```
 
 ## 📋 Prerequisites
@@ -245,3 +251,24 @@ This project is for educational purposes.
 3. Commit your changes
 4. Push to the branch
 5. Open a Pull Request
+
+---
+
+## 🌐 Connect with Us
+
+Experience the future of AI with **HERE AND NOW AI**.
+
+| Platform | Link |
+| :--- | :--- |
+| **Website** | [hereandnowai.com](https://hereandnowai.com) |
+| **LinkedIn** | [linkedin.com/company/hereandnowai](https://www.linkedin.com/company/hereandnowai/) |
+| **X (Twitter)** | [x.com/hereandnow_ai](https://x.com/hereandnow_ai) |
+| **Instagram** | [instagram.com/hereandnow_ai](https://instagram.com/hereandnow_ai) |
+| **YouTube** | [youtube.com/@hereandnow_ai](https://youtube.com/@hereandnow_ai) |
+| **GitHub** | [github.com/hereandnowai](https://github.com/hereandnowai) |
+| **Email** | [info@hereandnowai.com](mailto:info@hereandnowai.com) |
+| **Phone** | +91 996 296 1000 |
+
+<p align="center">
+  <b>Built by HERE AND NOW AI — AI is Good</b>
+</p>

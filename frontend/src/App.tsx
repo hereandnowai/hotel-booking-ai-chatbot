@@ -12,7 +12,7 @@ function App() {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      content: "Hello! I'm your AI hotel concierge. I can help you search for hotels, make bookings, modify reservations, or cancel them. How can I assist you today?",
+      content: "Hello! I'm Caramel, your AI concierge from HERE AND NOW AI. I can help you search for hotels, make bookings, and manage your reservations with ease. AI is Good! How can I assist you today?",
       sender: 'bot',
       timestamp: new Date(),
     },
@@ -62,7 +62,7 @@ function App() {
     setMessages([
       {
         id: '1',
-        content: "Hello! I'm your AI hotel concierge. I can help you search for hotels, make bookings, modify reservations, or cancel them. How can I assist you today?",
+        content: "Hello! I'm Caramel, your AI concierge from HERE AND NOW AI. I can help you search for hotels, make bookings, and manage your reservations with ease. AI is Good! How can I assist you today?",
         sender: 'bot',
         timestamp: new Date(),
       },
@@ -70,9 +70,9 @@ function App() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-hotel-dark flex flex-col">
+    <div className="min-h-screen bg-hnai-secondary flex flex-col">
       <Header onClearChat={handleClearChat} />
-      <main className="flex-1 flex justify-center px-4 py-6">
+      <main className="flex-1 flex justify-center px-4 py-8">
         <ChatContainer
           messages={messages}
           onSendMessage={handleSendMessage}

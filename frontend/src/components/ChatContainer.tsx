@@ -22,7 +22,7 @@ function ChatContainer({ messages, onSendMessage, isLoading }: ChatContainerProp
   }, [messages, isLoading])
 
   return (
-    <div className="w-full max-w-4xl bg-hotel-medium rounded-2xl shadow-2xl flex flex-col h-[calc(100vh-160px)]">
+    <div className="w-full max-w-4xl bg-hnai-secondary rounded-2xl shadow-2xl flex flex-col h-[calc(100vh-160px)] border border-hnai-primary/10">
       {/* Messages area */}
       <div className="flex-1 overflow-y-auto p-6 space-y-4">
         {messages.map((message) => (
@@ -33,7 +33,7 @@ function ChatContainer({ messages, onSendMessage, isLoading }: ChatContainerProp
       </div>
 
       {/* Input area */}
-      <div className="border-t border-hotel-light/30 p-4">
+      <div className="border-t border-hnai-primary/20 p-4">
         <MessageInput onSend={onSendMessage} disabled={isLoading} />
       </div>
     </div>
